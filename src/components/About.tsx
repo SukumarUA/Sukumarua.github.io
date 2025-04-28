@@ -13,13 +13,13 @@ const About: React.FC = () => {
           <div className="w-20 h-1 bg-indigo-600 dark:bg-indigo-400 mx-auto mt-4"></div>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <div className="space-y-6">
             <div className="prose prose-lg dark:prose-invert prose-indigo max-w-none">
               {aboutMe.description.split('\n\n').map((paragraph, index) => (
-                <p key={index} className="text-gray-700 dark:text-gray-300 text-justify">
+                <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300 text-justify">
                   {paragraph}
-                </p>
+               </p>
               ))}
             </div>
             
@@ -49,17 +49,17 @@ const About: React.FC = () => {
                   Frontend Development
                 </h4>
                 <div className="flex flex-wrap gap-2">
-                  {skills
-                    .filter(skill => skill.category === 'frontend')
-                    .map(skill => (
-                      <span
-                        key={skill.name}
-                        className="px-4 py-2 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-full text-sm"
-                      >
-                        {skill.name}
-                      </span>
-                    ))
-                  }
+                {skills
+                  .filter(skill => skill.category === 'frontend')
+                  .map(skill => (
+                    <span
+                      key={skill.name}
+                      className="px-4 py-2 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 rounded-full text-sm"
+                    >
+                      {skill.name}
+                    </span>
+                  ))
+                }
                 </div>
               </div>
               
