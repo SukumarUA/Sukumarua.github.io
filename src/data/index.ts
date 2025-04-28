@@ -78,7 +78,7 @@ export const projects: Project[] = [
     title: 'SAGE Web Application Enhancement',
     description: 'Integrated third-party geocoding services and implemented Java Regex for parsing large address datasets, improving data accuracy and processing efficiency.',
     tags: ['Java', 'Spring Boot', 'SQL', 'API Integration'],
-    imageUrl: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.unsplash.com/photo-1537432376769-00a57b7d0185?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80',
     featured: true,
   },
   {
@@ -86,7 +86,7 @@ export const projects: Project[] = [
     title: 'E-commerce Platform Development',
     description: 'Developed and maintained e-commerce solutions using Oracle ATG Commerce platform, implementing custom features and ensuring high performance.',
     tags: ['Java', 'JSP', 'Oracle ATG', 'E-commerce'],
-    imageUrl: 'https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80',
     featured: true,
   },
   {
@@ -94,7 +94,7 @@ export const projects: Project[] = [
     title: 'Supply Chain Analytics System',
     description: 'Developed Python scripts and SQL databases for supply chain optimization, creating interactive dashboards for real-time business insights.',
     tags: ['Python', 'SQL', 'Data Analytics'],
-    imageUrl: 'https://images.pexels.com/photos/7567460/pexels-photo-7567460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    imageUrl: 'https://images.unsplash.com/photo-1612831662485-297b4f54e0c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80',
   },
 ];
 
