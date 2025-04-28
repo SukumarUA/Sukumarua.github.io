@@ -147,7 +147,7 @@ When I'm not coding, you'll probably find me tweaking AWS environments, automati
 I believe great software is built on great communication, solid engineering, and a little bit of fun. I bring curiosity, creativity, and a no-fear attitude to every project I tackle — because tech should feel exciting, not intimidating.
 
 If you're looking for someone who can talk both to humans and machines (and who enjoys doing both), let's connect!`,
-  resumeUrl: '/resume.pdf',
+  resumeUrl: 'https://raw.githubusercontent.com/SukumarUA/Portfolio/main/Resume/SUKUMAR%20JC.pdf',
 };
 
 export const contactInfo = {
